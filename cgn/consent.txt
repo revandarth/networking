@@ -1,0 +1,26 @@
+The measurement script that you will run aims to measure the load times and visual
+completion times of web pages. A subset from a curated list of 500 Web pages will be 
+used for the experiments and the exact list of pages to be used will be displayed during the test. 
+We will ask you 
+  * your location (country, state, city), 
+  * the type of your broadband service, 
+  * download and upload speeds, 
+  * the price of your Internet service, and,
+  * your ISP. 
+  
+Your location will enable us to compare latency measurements across different 
+parts of the world. Your public IP address will be collected for this purpose 
+as well. Type of your Internet service will enable us to see how different 
+connection types affect latency. The price, and advertised download and upload 
+speeds will help us investigate how / whether these Internet service parameters 
+translate into lower latency. 
+For the measurements, the following tools/utilities will be used:
+Mozilla Firefox: This will be used to load Web pages headlessly.
+ping / pyping: This will be used to check your network connectivity.
+python imaging library / pyscreenshot: These will be used to record frames rendered by 
+firefox periodically to analyze the visual completion of Web pages.
+When the test script is run, it will retrieve the list of Web pages to be 
+used. Numbered output folders will be created to temporarily store the output files
+for each url. 
+Each generated file will be uploaded immediately.
+You DO NOT HAVE TO send any output files manually.

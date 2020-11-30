@@ -1,0 +1,20 @@
+Running BrowserMob Proxy using LittleProxy implementation. To revert to the legacy implementation, run the proxy with the command-line option '--use-littleproxy false'.
+[INFO  2017-08-05T18:41:02,287 net.lightbody.bmp.proxy.Main] (main) Starting BrowserMob Proxy version 2.1.4 
+[INFO  2017-08-05T18:41:02,357 org.eclipse.jetty.util.log] (main) jetty-7.x.y-SNAPSHOT 
+[INFO  2017-08-05T18:41:02,484 org.eclipse.jetty.util.log] (main) started o.e.j.s.ServletContextHandler{/,null} 
+[INFO  2017-08-05T18:41:02,790 org.eclipse.jetty.util.log] (main) Started SelectChannelConnector@0.0.0.0:8080 
+[INFO  2017-08-05T18:41:13,431 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1894788146-17) Starting proxy at address: 0.0.0.0/0.0.0.0:8081 
+[INFO  2017-08-05T18:41:13,603 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1894788146-17) Proxy listening with TCP transport 
+[INFO  2017-08-05T18:41:13,737 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1894788146-17) Proxy started at address: /0:0:0:0:0:0:0:0:8081 
+[INFO  2017-08-05T19:07:29,354 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-0-ClientToProxyWorker-0) (AWAITING_INITIAL) [id: 0x73973539, L:/127.0.0.1:8081 - R:/127.0.0.1:41722]: Bad Host http://frezuaq/ 
+[INFO  2017-08-05T19:07:29,412 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-0-ClientToProxyWorker-1) (AWAITING_INITIAL) [id: 0xeded5269, L:/127.0.0.1:8081 - R:/127.0.0.1:41724]: Bad Host http://drneendkruhvwrk/ 
+[INFO  2017-08-05T19:07:29,413 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-0-ClientToProxyWorker-2) (AWAITING_INITIAL) [id: 0x9cccc2ed, L:/127.0.0.1:8081 - R:/127.0.0.1:41726]: Bad Host http://uwfamsonlycao/ 
+[INFO  2017-08-05T19:07:29,805 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-0-ClientToProxyWorker-3) (AWAITING_INITIAL) [id: 0xe1d8779b, L:/127.0.0.1:8081 - R:/127.0.0.1:41728]: Bad Host http://zvqbjhqr/ 
+[INFO  2017-08-05T19:07:29,818 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-0-ClientToProxyWorker-4) (AWAITING_INITIAL) [id: 0x09b677bc, L:/127.0.0.1:8081 - R:/127.0.0.1:41730]: Bad Host http://uapfnttjx/ 
+[INFO  2017-08-05T19:07:29,917 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-0-ClientToProxyWorker-5) (AWAITING_INITIAL) [id: 0x0ef0f607, L:/127.0.0.1:8081 - R:/127.0.0.1:41732]: Bad Host http://icbzvcifzvmju/ 
+[INFO  2017-08-05T19:07:31,000 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-0-ClientToProxyWorker-7) (AWAITING_INITIAL) [id: 0xb859fa36, L:/127.0.0.1:8081 - R:/127.0.0.1:41736]: Bad Host http://trmsqkmvhnjdy/ 
+[INFO  2017-08-05T19:07:31,023 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-0-ClientToProxyWorker-6) (AWAITING_INITIAL) [id: 0xc780c2c1, L:/127.0.0.1:8081 - R:/127.0.0.1:41734]: Bad Host http://oycfabqi/ 
+[INFO  2017-08-05T19:07:31,037 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-0-ClientToProxyWorker-0) (AWAITING_INITIAL) [id: 0xd0636e8b, L:/127.0.0.1:8081 - R:/127.0.0.1:41738]: Bad Host http://zymreuvamkbcu/ 
+[INFO  2017-08-05T19:07:32,801 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-0-ClientToProxyWorker-2) (AWAITING_INITIAL) [id: 0x859ce495, L:/127.0.0.1:8081 - R:/127.0.0.1:41742]: Bad Host http://eaoesyxeowgplwt/ 
+[INFO  2017-08-05T19:07:32,818 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-0-ClientToProxyWorker-3) (AWAITING_INITIAL) [id: 0x60d330f6, L:/127.0.0.1:8081 - R:/127.0.0.1:41744]: Bad Host http://gxdrhezyz/ 
+[INFO  2017-08-05T19:07:32,883 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-0-ClientToProxyWorker-1) (AWAITING_INITIAL) [id: 0xa18d8b21, L:/127.0.0.1:8081 - R:/127.0.0.1:41740]: Bad Host http://onezwamnrttar/ 

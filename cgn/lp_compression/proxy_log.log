@@ -1,0 +1,131 @@
+start
+command executed:sudo sysctl -w net.ipv4.tcp_slow_start_after_idle=0
+command executed:sudo sysctl -w net.ipv4.tcp_wmem='4096 212992 8388608'
+command executed:sudo sysctl -w net.ipv4.tcp_rmem='4096 212992 8388608'
+command executed:sudo sysctl -w net.ipv4.tcp_mem='8388608 8388608 8388608'
+command executed:sudo sysctl -w net.core.rmem_default=212992
+command executed:sudo sysctl -w net.core.rmem_max=8388608
+command executed:sudo sysctl -w net.core.wmem_default=212992
+command executed:sudo sysctl -w net.core.wmem_max=8388608
+Trying to connect 13.56.113.192:5555
+Connected to intermediate node 13.56.113.192:5555
+Trying to connect 13.56.113.192:5555
+Connected to intermediate node 13.56.113.192:5555
+Trying to connect 13.56.113.192:5555
+Connected to intermediate node 13.56.113.192:5555
+Trying to connect 13.56.113.192:5555
+Connected to intermediate node 13.56.113.192:5555
+Number of active intermediate nodes: 1
+http://ocsp.digicert.com/
+http://ocsp.digicert.com/
+http://ocsp.digicert.com/
+http://ucsd.edu/
+@@@@@@ url sent to master conn:http://ucsd.edu/
+@@@@@ Request: http://ucsd.edu/ sent to remote proxy at 1504609524236
+http://ciscobinary.openh264.org/openh264-linux64-0410d336bb748149a4f560eb6108090f078254b1.zip
+Url: http://ucsd.edu/_resources/css/custom-img.css received, size: 15222 at 1504609524799
+Url: http://ucsd.edu/_resources/css/vendor/font-awesome.css received, size: 35243 at 1504609524808
+Url: http://ucsd.edu/_resources/css/vendor/animate.css received, size: 72253 at 1504609525115
+Url: http://ucsd.edu/_resources/css/custom.css received, size: 4476 at 1504609525116
+Url: http://ucsd.edu/ received, size: 42443 at 1504609525401
+Found in cache! URL: http://ucsd.edu/
+Url: http://ucsd.edu/_resources/css/vendor/slick.css received, size: 1729 at 1504609525404
+http://ucsd.edu/_resources/css/styles.css
+http://ucsd.edu/_resources/css/custom-img.css
+Found in cache! URL: http://ucsd.edu/_resources/css/custom-img.css
+http://ucsd.edu/_resources/css/custom.css
+Found in cache! URL: http://ucsd.edu/_resources/css/custom.css
+http://ucsd.edu/_resources/css/vendor/font-awesome.css
+Found in cache! URL: http://ucsd.edu/_resources/css/vendor/font-awesome.css
+http://ucsd.edu/_resources/css/vendor/slick.css
+Found in cache! URL: http://ucsd.edu/_resources/css/vendor/slick.css
+http://ucsd.edu/_resources/css/vendor/slick-theme.css
+http://ucsd.edu/_resources/css/vendor/animate.css
+Found in cache! URL: http://ucsd.edu/_resources/css/vendor/animate.css
+http://s7.addthis.com/js/300/addthis_widget.js
+http://ucsd.edu/favicon.ico
+Url: http://s7.addthis.com/js/300/addthis_widget.js received, size: 352164 at 1504609527183
+Url: http://ucsd.edu/_resources/css/vendor/slick-theme.css received, size: 3145 at 1504609527183
+Found in cache! URL: http://s7.addthis.com/js/300/addthis_widget.js
+Found in cache! URL: http://ucsd.edu/_resources/css/vendor/slick-theme.css
+http://clients1.google.com/ocsp
+http://ocsp.usertrust.com/
+http://ocsp.usertrust.com/
+http://ocsp.usertrust.com/
+http://ocsp.usertrust.com/
+http://ocsp.usertrust.com/
+Url: http://ucsd.edu/_resources/css/styles.css received, size: 172053 at 1504609528036
+Found in cache! URL: http://ucsd.edu/_resources/css/styles.css
+Url: http://ucsd.edu/_resources/img/bg_blue_lines.png received, size: 32454 at 1504609528064
+Url: http://ucsd.edu/_resources/img/bg_research.jpg received, size: 71611 at 1504609528354
+Url: http://www.googletagmanager.com/gtm.js?id=GTM-K826VG received, size: 195198 at 1504609529185
+Url: http://ucsd.edu/_resources/img/bg_attend.jpg received, size: 602021 at 1504609530748
+Url: http://ucsd.edu/_resources/img/bg_campus_life.jpg received, size: 64714 at 1504609530928
+Url: http://ucsd.edu/_resources/img/icon_search.png received, size: 1509 at 1504609530928
+Url: http://ucsd.edu/_resources/img/bg_event_multiple.jpg received, size: 149731 at 1504609531224
+Url: http://ucsd.edu/_resources/img/placeholder_ig.jpg received, size: 57037 at 1504609531270
+Url: http://ucsd.edu/_images/about/peace-center.jpg received, size: 60771 at 1504609531490
+Url: http://a.adroll.com/j/roundtrip.js received, size: 25291 at 1504609531507
+Url: http://ucsd.edu/_resources/vid/vid-poster.jpg received, size: 152076 at 1504609531847
+Url: http://www.youtube.com/iframe_api received, size: 739 at 1504609531847
+Url: http://www.google-analytics.com/analytics.js received, size: 32959 at 1504609531847
+Url: http://ucsd.edu/_resources/bootstrap/fonts/glyphicons-halflings-regular.svg received, size: 108738 at 1504609531925
+Url: http://www.google-analytics.com/collect?v=1&_v=j60&a=936667340&t=pageview&_s=1&dl=http%3A%2F%2Fucsd.edu%2F&dp=%2F&ul=en-us&de=UTF-8&dt=University%20of%20California%20San%20Diego&sd=32-bit&sr=1024x768&vp=400x300&je=0&_u=aGDAiEQAB~&jid=492526176&gjid=959082957&cid=727565954.1504610023&tid=UA-24480055-33&_gid=749711761.1504610023&gtm=GTM-K826VG&z=636457658 received, size: 35 at 1504609531925
+Url: http://www.google-analytics.com/collect?v=1&_v=j60&a=936667340&t=pageview&_s=1&dl=http%3A%2F%2Fucsd.edu%2F&dp=%2F&ul=en-us&de=UTF-8&dt=University%20of%20California%20San%20Diego&sd=32-bit&sr=1024x768&vp=400x300&je=0&_u=aGDACEQAJ~&jid=&gjid=&cid=727565954.1504610023&tid=UA-3409104-4&_gid=749711761.1504610023&gtm=GTM-K826VG&z=906489884 received, size: 35 at 1504609531925
+Url: http://www.google-analytics.com/r/collect?v=1&_v=j60&a=936667340&t=pageview&_s=1&dl=http%3A%2F%2Fucsd.edu%2F&ul=en-us&de=UTF-8&dt=University%20of%20California%20San%20Diego&sd=32-bit&sr=1024x768&vp=400x300&je=0&_u=aGDACEQAJ~&jid=900393135&gjid=367500569&cid=727565954.1504610023&tid=UA-3409104-4&_gid=749711761.1504610023&_r=1&z=1643242068 received, size: 42 at 1504609531925
+Url: http://www.google-analytics.com/r/collect?v=1&_v=j60&a=936667340&t=pageview&_s=1&dl=http%3A%2F%2Fucsd.edu%2F&dp=%2F&ul=en-us&de=UTF-8&dt=University%20of%20California%20San%20Diego&sd=32-bit&sr=1024x768&vp=400x300&je=0&_u=YEBAAAQAI~&jid=1702224907&gjid=1177253304&cid=727565954.1504610023&tid=UA-3409104-4&_gid=749711761.1504610023&_r=1&gtm=GTM-K826VG&z=1223474553 received, size: 42 at 1504609531925
+Url: http://s7.addthis.com/static/layers.7569eb2b5e9fff3d8477.js received, size: 300325 at 1504609532744
+Url: http://m.addthisedge.com/live/boost/ra-578fc1ac3ae4256c/_ate.track.config_resp received, size: 1541 at 1504609532744
+Url: http://m.addthis.com/live/red_lojson/300lo.json?si=59ae86e7d3e17c3b&bkl=0&bl=1&sid=59ae86e7d3e17c3b&pub=ra-578fc1ac3ae4256c&rev=v7.15.5-wp&ln=en&pc=men&cb=0&ab=-&dp=ucsd.edu&fp=&fr=&of=0&pd=0&irt=0&vcl=0&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1504610023094&jsl=0&uvs=59ae86e7c07134de000&skipb=1&callback=addthis.cbs.oln9_56963595584966240 received, size: 99 at 1504609532744
+Url: http://s7.addthis.com/static/sh.886bb8b2fb82aeab6a228151.html received, size: 68645 at 1504609532758
+Url: http://s.ytimg.com/yts/jsbin/www-widgetapi-vflWgX7t4/www-widgetapi.js received, size: 24548 at 1504609532805
+Url: http://ucsd.edu/_images/about/shanghai-ranking-2017.jpg received, size: 41801 at 1504609533015
+Url: http://ucsd.edu/_resources/img/bg_campus_life_hero.jpg received, size: 297790 at 1504609533988
+Url: http://ucsd.edu/assets/js/vendor/jquery.min.js received, size: 23881 at 1504609533989
+Url: http://ucsd.edu/_resources/img/bg_map.jpg received, size: 96306 at 1504609534194
+Url: http://ucsd.edu/_images/about/research-funding-record.jpg received, size: 64879 at 1504609534224
+#####All content received for request http://ucsd.edu/#####
+@@@@@ Request: http://ciscobinary.openh264.org/openh264-linux64-0410d336bb748149a4f560eb6108090f078254b1.zip sent to remote proxy at 1504609534234
+http://ucsd.edu/_resources/vid/vid-poster.jpg
+Found in cache! URL: http://ucsd.edu/_resources/vid/vid-poster.jpg
+http://ucsd.edu/_images/about/peace-center.jpg
+Found in cache! URL: http://ucsd.edu/_images/about/peace-center.jpg
+http://ucsd.edu/_images/about/research-funding-record.jpg
+Found in cache! URL: http://ucsd.edu/_images/about/research-funding-record.jpg
+http://ucsd.edu/_images/about/shanghai-ranking-2017.jpg
+Found in cache! URL: http://ucsd.edu/_images/about/shanghai-ranking-2017.jpg
+Url: http://ciscobinary.openh264.org/openh264-linux64-0410d336bb748149a4f560eb6108090f078254b1.zip received, size: 515722 at 1504609536974
+#####All content received for request http://ciscobinary.openh264.org/openh264-linux64-0410d336bb748149a4f560eb6108090f078254b1.zip#####
+Found in cache! URL: http://ciscobinary.openh264.org/openh264-linux64-0410d336bb748149a4f560eb6108090f078254b1.zip
+http://www.googletagmanager.com/gtm.js?id=GTM-K826VG
+Found in cache! URL: http://www.googletagmanager.com/gtm.js?id=GTM-K826VG
+http://ucsd.edu/_resources/img/icon_search.png
+Found in cache! URL: http://ucsd.edu/_resources/img/icon_search.png
+http://ucsd.edu/_resources/img/bg_blue_lines.png
+Found in cache! URL: http://ucsd.edu/_resources/img/bg_blue_lines.png
+http://ucsd.edu/_resources/img/bg_research.jpg
+Found in cache! URL: http://ucsd.edu/_resources/img/bg_research.jpg
+http://ucsd.edu/_resources/img/bg_attend.jpg
+Found in cache! URL: http://ucsd.edu/_resources/img/bg_attend.jpg
+http://ucsd.edu/_resources/img/bg_campus_life_hero.jpg
+Found in cache! URL: http://ucsd.edu/_resources/img/bg_campus_life_hero.jpg
+http://ucsd.edu/_resources/img/bg_campus_life.jpg
+Found in cache! URL: http://ucsd.edu/_resources/img/bg_campus_life.jpg
+http://ucsd.edu/_resources/img/placeholder_ig.jpg
+Found in cache! URL: http://ucsd.edu/_resources/img/placeholder_ig.jpg
+http://ucsd.edu/_resources/img/bg_map.jpg
+Found in cache! URL: http://ucsd.edu/_resources/img/bg_map.jpg
+http://ucsd.edu/_resources/img/bg_campaign.jpg
+http://ucsd.edu/_resources/img/bg_event_multiple.jpg
+Found in cache! URL: http://ucsd.edu/_resources/img/bg_event_multiple.jpg
+@@@@@ Request: http://ucsd.edu/_resources/img/bg_campaign.jpg sent to remote proxy at 1504609542765
+http://ucsd.edu/_resources/bootstrap/fonts/glyphicons-halflings-regular.woff
+@@@@@ Request: http://ucsd.edu/_resources/bootstrap/fonts/glyphicons-halflings-regular.woff sent to remote proxy at 1504609542776
+Url: http://ucsd.edu/_resources/bootstrap/fonts/glyphicons-halflings-regular.woff received, size: 23424 at 1504609543533
+#####All content received for request http://ucsd.edu/_resources/bootstrap/fonts/glyphicons-halflings-regular.woff#####
+Found in cache! URL: http://ucsd.edu/_resources/bootstrap/fonts/glyphicons-halflings-regular.woff
+Url: http://ucsd.edu/_resources/img/bg_campaign.jpg received, size: 273695 at 1504609545976
+#####All content received for request http://ucsd.edu/_resources/img/bg_campaign.jpg#####
+Found in cache! URL: http://ucsd.edu/_resources/img/bg_campaign.jpg
+http://clients1.google.com/ocsp
+http://ocsp.digicert.com/

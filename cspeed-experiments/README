@@ -1,0 +1,64 @@
+                 README
+
+1 - HOW TO RUN THE EXPERIMENTS
+
+1.1 - To run the experiments, issue the following command:
+
+   sudo ./run_cspeed_exp.sh
+
+The script has to be run using sudo, because capturing packets with tcpdump 
+requires root privileges. See the following explanation about why this is done.
+
+2 - INFORMATION ABOUT THE EXPERIMENTS
+
+2.1 - The measurement script that you will run aims to measure the latency of 
+web page downloads. 50 webpages will be used for the experiments and the exact 
+list of pages to be used will be displayed during the test. The pages were 
+selected from Alexa Top 500 list from countries in different parts of the world.
+
+2.2 - We will ask you 
+  * your location (country, state, city), 
+  * the type of your broadband service, 
+  * download and upload speeds, 
+  * the price of your Internet service, and,
+  * your service provider ISP. 
+  
+We will also measure your download and upload speeds to investigate its effect 
+on TCP transfer time and latency.  
+  
+Your location will enable us to compare latency measurements across different 
+parts of the world. Your public IP address will be collected for this purpose 
+as well. Type of your Internet service will enable us to see how different 
+connection types affect latency. The price, and advertised download and upload 
+speeds will help us investigate how / whether these Internet service parameters 
+translate into lower latency. 
+
+2.3 - For the measurements, the following tools/utilities will be used:
+
+2.3.1 - tcpdump : We will use tcpdump to capture your TCP traffic while 
+downloading the webpages for estimating packet loss. Keep in mind, we would only
+be looking at your traffic within this VM while fetching the webpages.
+
+2.3.2 - curl : curl will be used to download the landing (opening) pages of the 
+websites used in the experiment. This will enable us to break down the sources 
+of latency such as time taken for name resolution(DNS), time for TCP handshake, 
+time taken for TCP transfer and so on. curl also will be used to upload the 
+collected data to our server.
+
+2.3.3 - ping : We will also measure the round-trip-time(RTT) to the webservers 
+hosting the test webpages using ping.
+
+2.3.4 - traceroute : We will run a traceroute from this VM to each Web server 
+in the list. This will help us analyze the latency caused at different 
+locations in the end-to-end path.
+
+2.3.5 - PhantomJS : We will use PhantomJS headless browser to obtain HTTP 
+archive (HAR) files of the landing pages of the test websites. This will enable 
+us to obtain the number of objects downloaded for each page and latency caused 
+by loading each object.
+
+2.4 - When the test script is run, it will retrieve the list of webpages to be 
+used from a remote server (if necessary). An output folder will be created to 
+temporarily store the output files. Each generated file will be uploaded 
+immediately. Generated test files are not deleted and you can view these after
+an experiment is finished. You DO NOT HAVE TO send any output files manually.
